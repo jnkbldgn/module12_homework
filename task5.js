@@ -15,7 +15,6 @@ class Appliance {
   }
 }
 
-
 class Monitor extends Appliance {
   constructor(diagonal, brand, power) {
     super(brand, power)
@@ -25,8 +24,6 @@ class Monitor extends Appliance {
     console.info(`The size of this monitor is ${this.diagonal} inches.`);
   }
 }
-
-
 
 class Keyboard extends Appliance {
   constructor(type, keys, brand, power) {
@@ -38,8 +35,6 @@ class Keyboard extends Appliance {
     console.info(`This is a ${this.type} keyboard`);
   }
 }
-
-
 
 const myMonitor = new Monitor(24, 'Asus', 300);
 const myKeyboard = new Keyboard('mechanical', 139, 'Logitech', 50);
